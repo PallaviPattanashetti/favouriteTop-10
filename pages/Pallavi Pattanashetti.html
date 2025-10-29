@@ -6,189 +6,558 @@ Creating simple about me project within figma and then putting it into html
 
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Top10Everything!</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Top10Everything!</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
   <link rel="stylesheet" href="../styles/styles.css">
-  </head>
-  <body>
+</head>
+
+<body>
+
+
+  <nav class="navbar navbar-expand-lg navbar-dark custom-navbar"> <!--THIS IS ALL JUST OUR HEADER -->
+    <div class="container">
+      <a class="navbar-brand" href="../pages/Pallavi Pattanashetti.html">Pallavi Pattanashetti</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">Home</a> <!--THESE WILL LINK BETWEEN OUR PAGES-->
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/Lucas Guptill.html">Lucas Guptill</a> <!--Lucas page-->
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/Pallavi Pattanashetti.html">Pallavi Pattanashetti</a><!--Pallavi Page-->
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/Contact Info.html">Contact Info</a><!--Contact Page-->
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <br>
+  <br>
+
+  <main class="container mt-5">
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="card shadow mb-4">
+          <div class="card-body">
+            <h5 class="card-title">1.William Shakespeare-""</h5>
+            <p class="card-text">William Shakespeare was a famous English playwright and poet from the late 16th and
+              early
+              17th centuries. He is often called the greatest writer in the English language. His play “Hamlet” is a
+              tragic story about a prince who seeks revenge for his father’s murder. The play explores deep themes like
+              madness, betrayal, and the meaning of life. Through Hamlet, Shakespeare showed his genius in understanding
+              human emotions and creating timeless characters.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <!--carousel-->
+
+        <div id="carouselExampleFade" class="carousel slide carousel-fade">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="..." class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="..." class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="..." class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!---->
+    <!---->
+
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="card shadow mb-4">
+          <div class="card-body">
+            <h5 class="card-title">2. John Keats-""</h5>
+            <p class="card-text">John Keats was a famous English Romantic poet from the early 19th century known for his
+              beautiful and emotional language. His poem “Ode on a Grecian Urn” reflects his love for art, beauty, and
+              nature. In the poem, he describes scenes painted on an ancient urn and imagines the stories behind them.
+              He
+              explores the idea that art can capture beauty forever, even when life and people change. The poem ends
+              with
+              the famous line, “Beauty is truth, truth beauty,” showing Keats’s belief in the lasting power of beauty
+              and
+              art.
+            </p>
+          </div>
+        </div>
+      </div>
+
+<!--carousel starts-->
+    <div class="col-sm-6">
+      <!--carousel-->
+
+      <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    </div>
+    </div>
+    <!--carousel Ends-->
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="card shadow mb-4">
+          <div class="card-body">
+            <h5 class="card-title">3.Jane Austen-"Pride And Prejudice"</h5>
+            <p class="card-text">Jane Austen was an English novelist of the late 18th and early 19th century. Pride and
+              Prejudice is a novel about love, marriage, and social class in Regency England. The story follows
+              Elizabeth
+              Bennet as she navigates family pressures and misunderstandings. It is known for its wit, humor, and keen
+              observation of society. Austen’s work highlights the importance of personal integrity and understanding in
+              relationships.
+            </p>
+          </div>
+        </div>
+      </div>
+
+<!--carousel starts-->
+    <div class="col-sm-6">
+      <!--carousel-->
+
+      <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    </div>
+
+
+    </div>
+    <div class="row">
+    <div class="col-sm-6">
+      <div class="card shadow mb-4">
+        <div class="card-body">
+          <h5 class="card-title">4.Percy Bysshe Shelley-"Ozymandias"
+          </h5>
+          <p class="card-text">Shelley was a major Romantic poet of the early 19th century. Ozymandias is a sonnet about
+            a ruined statue in the desert, symbolizing the fleeting nature of power. The poem explores human pride and
+            the inevitability of time. It uses vivid imagery and irony to make its point. Shelley reminds readers that
+            all worldly achievements eventually fade.
+          </p>
+        </div>
+      </div>
+    </div>
+<div class="col-sm-6">
+      <!--carousel-->
+
+      <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    </div>
+
+    </div>
+    </div>
+    <div class="row">
+    <div class=" col-sm-6">
+      <div class="card shadow mb-4">
+        <div class="card-body">
+          <h5 class="card-title">5.Samuel Taylor Coleridge- "The Rime of the Ancient Mariner"
+          </h5>
+          <p class="card-text">Coleridge was a Romantic poet from the late 18th and early 19th century. His narrative
+            poem tells the story of a sailor who suffers after killing an albatross. The poem explores guilt,
+            redemption, and the power of nature. It is famous for its supernatural elements and rhythmic language.
+            Coleridge’s work highlights moral lessons through vivid storytelling.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--carousel starts-->
+    <div class="col-sm-6">
+      <!--carousel-->
+
+      <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    </div>
+    </div>
+    <!--carousel Ends-->
+    </div>
+    <div class="row">
+    <div class="col-sm-6">
+      <div class="card shadow mb-4">
+        <div class="card-body">
+          <h5 class="card-title">6.William Wordsworth-"The Prelude"</h5>
+          <p class="card-text">Wordsworth was a leading Romantic poet of the late 18th and early 19th century. The
+            Prelude is an autobiographical poem reflecting on his life and his love of nature. It explores memory,
+            imagination, and personal growth. Wordsworth emphasizes the spiritual and emotional power of nature. The
+            poem helped define Romanticism in English literature.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--carousel starts-->
+    <div class="col-sm-6">
+      <!--carousel-->
+
+      <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    </div>
+    </div>
+    <!--carousel Ends-->
+    </div>
+  </div>
+  <div class="row">
+    <div class=" col-sm-6">
+      <div class="card shadow mb-4">
+        <div class="card-body">
+          <h5 class="card-title">7.George Eliot-"Middlemarch"
+          </h5>
+          <p class="card-text">George Eliot was the pen name of Mary Ann Evans, a Victorian novelist of the 19th
+            century. Middlemarch explores life in a provincial English town, focusing on marriage, politics, and
+            ambition. The novel is known for its psychological depth and realism. Eliot examines social and moral issues
+            in detail. The work is considered one of the greatest English novels.
+          </p>
+        </div>
+      </div>
+    </div>
+  </dive>
+  <!--carousel starts-->
+    <div class="col-sm-6">
+      <!--carousel-->
+
+      <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    </div>
+    </div>
+    <!--carousel Ends-->
+  </div>
+
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="card shadow mb-4">
+        <div class="card-body">
+          <h5 class="card-title">8.Charlotte Brontë-"Jane Eyre"
+          </h5>
+          <p class="card-text">Charlotte Brontë was a 19th-century English novelist. Jane Eyre tells the story of an
+            orphaned girl who grows up facing hardship and injustice. The novel explores love, independence, and moral
+            strength. Brontë combines emotional depth with social critique. Jane Eyre remains a classic example of
+            Gothic romance and personal resilience.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--carousel starts-->
+    <div class="col-sm-6">
+      <!--carousel-->
+
+      <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    </div>
+    </div>
+    <!--carousel Ends-->
+    </div>
+    <div class="row">
+    <div class=" col-sm-6">
+      <div class="card shadow mb-4">
+        <div class="card-body">
+          <h5 class="card-title">9.Lord Byron-"Don Juan"
+          </h5>
+          <p class="card-text">Lord Byron was a flamboyant Romantic poet of the early 19th century. Don Juan is a
+            satirical epic poem about a young man’s adventures and love affairs. It combines humor, romance, and social
+            criticism. Byron’s style is witty, bold, and often rebellious. The poem reflects both personal freedom and
+            societal observation.
+
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--carousel starts-->
+    <div class="col-sm-6">
     
+      <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    </div>
+    </div>
+    <!--carousel Ends-->
+  </div>
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="card shadow mb-4">
+        <div class="card-body">
+          <h5 class="card-title">10..Charles Dickens-"Great Expectations"
+          </h5>
+          <p class="card-text">Charles Dickens was a Victorian novelist of the 19th century. Great Expectations follows
+            the life of Pip, an orphan who dreams of rising above his social class. The novel deals with ambition, love,
+            and personal growth. Dickens vividly portrays Victorian society and its challenges. The story combines
+            adventure, moral lessons, and memorable characters.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--carousel starts-->
+    <div class="col-sm-6">
+      <!--carousel-->
 
-<nav class="navbar navbar-expand-lg navbar-dark custom-navbar"> <!--THIS IS ALL JUST OUR HEADER -->
-  <div class="container">
-    <a class="navbar-brand" href="../pages/Pallavi Pattanashetti.html">Pallavi Pattanashetti</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="../index.html">Home</a> <!--THESE WILL LINK BETWEEN OUR PAGES-->
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="../pages/Lucas Guptill.html">Lucas Guptill</a> <!--Lucas page-->
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="../pages/Pallavi Pattanashetti.html">Pallavi Pattanashetti</a><!--Pallavi Page-->
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="../pages/Contact Info.html">Contact Info</a><!--Contact Page-->
-        </li>
-      </ul>
+      <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    </div>
+    </div>
+    <!--carousel Ends-->
     </div>
   </div>
-</nav>
-<br>
-<br>
+   
+    <!--WE WILL CODE OUT OUR TEXT BOXES IN HERE AND DECORATE THEM WITH CSS!-->
 
-<main class="container mt-5">
-    <div class=" col-sm-6">
-      <div class="card shadow mb-4">
-        <div class="card-body">
-          <h5 class="card-title">Column 2</h5>
-          <p class="card-text">This is some content for our column</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--the footer will always go to the bottom as long as its pushed down by the text boxes we'll add-->
+    <footer class="footer mt-5 py-4 text-white"> <!--THIS IS ALL JUST OUR FOOTER!-->
+      <div class="container">
+        <div class="row align-items-center text-center text-md-start">
+          <!-- Left section -->
+          <div class="col-md-4 mb-3 mb-md-0">
+            <button onclick="scrollToTop()" class="btn btn-light fw-bold mb-2">Back to Top</button>
+            <div>
+              <small>fabledparadox@gmail.com/pallavi.pattanashetti@gmail.com</small><br>
+              <small>lguptill@codestack.co/Ppattanashetti@codestack.co</small>
+              <!--OUR EMAILS AT THE BOTTOM AT ALL TIMES-->
+            </div>
+          </div>
+
+          <!-- Middle section -->
+          <div class="col-md-4 mb-3 mb-md-0 d-flex flex-column align-items-center justify-content-center">
+            <p class="mb-0 d-flex align-items-center">
+              Coded using Bootstrap!
+              <img src="/images/bootstrap logo.png" alt="Bootstrap Logo" class="ms-2 footer-logo">
+            </p>
+          </div>
+
+          <!-- Right section -->
+          <div class="col-md-4 text-md-end">
+            <p class="mb-0">© 2025 Lucas Guptill/Pallavi Pattanashetti</p>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="col-sm-6">
-      <div class="card shadow mb-4">
-        <div class="card-body">
-          <h5 class="card-title">Column 3</h5>
-          <p class="card-text">This is some content for our column</p>
-        </div>
-      </div>
-    </div>
-    </div>
-
-    <div class="col-sm-6">
-      <div class="card shadow mb-4">
-        <div class="card-body">
-          <h5 class="card-title">Column 2</h5>
-          <p class="card-text">This is some content for our column</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-6">
-      <div class="card shadow mb-4">
-        <div class="card-body">
-          <h5 class="card-title">Column 3</h5>
-          <p class="card-text">This is some content for our column</p>
-        </div>
-      </div>
-    </div>
-    </div>
-    <div class=" col-sm-6">
-      <div class="card shadow mb-4">
-        <div class="card-body">
-          <h5 class="card-title">Column 2</h5>
-          <p class="card-text">This is some content for our column</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-6">
-      <div class="card shadow mb-4">
-        <div class="card-body">
-          <h5 class="card-title">Column 3</h5>
-          <p class="card-text">This is some content for our column</p>
-        </div>
-      </div>
-    </div>
-    </div>
-    <div class=" col-sm-6">
-      <div class="card shadow mb-4">
-        <div class="card-body">
-          <h5 class="card-title">Column 2</h5>
-          <p class="card-text">This is some content for our column</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-6">
-      <div class="card shadow mb-4">
-        <div class="card-body">
-          <h5 class="card-title">Column 3</h5>
-          <p class="card-text">This is some content for our column</p>
-        </div>
-      </div>
-    </div>
-    </div>
-    <div class=" col-sm-6">
-      <div class="card shadow mb-4">
-        <div class="card-body">
-          <h5 class="card-title">Column 2</h5>
-          <p class="card-text">This is some content for our column</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-6">
-      <div class="card shadow mb-4">
-        <div class="card-body">
-          <h5 class="card-title">Column 3</h5>
-          <p class="card-text">This is some content for our column</p>
-        </div>
-      </div>
-    </div>
-    </div>
-            
-
-
-<!--WE WILL CODE OUT OUR TEXT BOXES IN HERE AND DECORATE THEM WITH CSS!-->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!--the footer will always go to the bottom as long as its pushed down by the text boxes we'll add-->
-<footer class="footer mt-5 py-4 text-white">          <!--THIS IS ALL JUST OUR FOOTER!-->
-  <div class="container">
-    <div class="row align-items-center text-center text-md-start">
-                                              <!-- Left section -->
-      <div class="col-md-4 mb-3 mb-md-0">
-        <button onclick="scrollToTop()" class="btn btn-light fw-bold mb-2">Back to Top</button>
-        <div>
-          <small>fabledparadox@gmail.com/pallavi.pattanashetti@gmail.com</small><br>
-          <small>lguptill@codestack.co/Ppattanashetti@codestack.co</small> <!--OUR EMAILS AT THE BOTTOM AT ALL TIMES-->
-        </div>
-      </div>
-
-                                      <!-- Middle section -->
-     <div class="col-md-4 mb-3 mb-md-0 d-flex flex-column align-items-center justify-content-center">
-  <p class="mb-0 d-flex align-items-center">
-    Coded using Bootstrap!
-    <img src="/images/bootstrap logo.png" alt="Bootstrap Logo" class="ms-2 footer-logo">
-  </p>
-</div>
-
-                                        <!-- Right section -->
-      <div class="col-md-4 text-md-end">
-        <p class="mb-0">© 2025 Lucas Guptill/Pallavi Pattanashetti</p>
-      </div>
-    </div>
-  </div>
-</footer>
-<script src="./JAVA/scripts.js"></script>
+    </footer>
+    <script src="./JAVA/scripts.js"></script>
 
     <!--dont touch anything below-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-  </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"></script>
+</body>
+
 </html>

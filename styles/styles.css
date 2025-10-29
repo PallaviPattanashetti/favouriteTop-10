@@ -1,6 +1,29 @@
-body {
+body { /* Background Image*/
   background-image: url('/images/realistic-gradient-color-bokeh-glass-effect-blurshop-background-image-free-photo.jpg');
   background-size: cover;          
   background-position: center;     
   background-attachment: fixed;                           
+}
+
+.footer {
+  background-color: black;      
+  border-top: 5px solid #121212;  
+}
+
+.footer small {
+  color: #ccc;              /*TO SEE OUR EMAILS & OTHER TEXT IN THE FOOTER*/               
+}
+
+.footer .btn {
+  border-radius: 8px;
+}
+.footer-logo {
+  width: 40px;
+  height: 34px;
+}
+
+                                /*coloring for nav bar*/
+.custom-navbar {
+  background-color: #2b2b2b;  
+  border-bottom: 3px solid #1a1a1a;  
 }

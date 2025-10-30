@@ -28,3 +28,8 @@ body { /* Background Image*/
   border-bottom: 3px solid #1a1a1a;  
 }
 
+
+.carousel-container {
+  margin-bottom: 20px !important;
+  margin-bottom: 20px;
+}

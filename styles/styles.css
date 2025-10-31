@@ -1,35 +1,133 @@
-body { /* Background Image*/
+/* === GLOBAL STYLES === */
+body {
   background-image: url('/images/realistic-gradient-color-bokeh-glass-effect-blurshop-background-image-free-photo.jpg');
-  background-size: cover;          
-  background-position: center;     
-  background-attachment: fixed;                           
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* === NAVBAR === */
+.custom-navbar {
+  background-color: #1a1a1a !important;
+  border-bottom: 3px solid #0f0f0f;
+  position: relative;
+  z-index: 1000;
+}
+
+/* Toggler button (hamburger) */
+.navbar-toggler {
+  border: none !important;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 6px 10px;
+  border-radius: 6px;
+}
+
+/* Hamburger icon visible on dark backgrounds */
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+/* Collapsed navbar background */
+.navbar-collapse {
+  background-color: #1a1a1a;
+  padding: 10px 0;
+  border-radius: 8px;
+}
+
+/* Navbar link styling */
+.navbar-nav .nav-link {
+  color: #f1f1f1 !important;
+  transition: color 0.2s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #9c9c9c !important;
+}
+
+/* === CAROUSEL / CONTENT === */
+.carousel-container {
+  margin-bottom: 20px !important;
+}
+
+/* === FOOTER === */
 .footer {
-  background-color: black;      
-  border-top: 5px solid #121212;  
+  background-color: #000;
+  border-top: 5px solid #121212;
+  padding: 20px 0;
+  text-align: center;
 }
 
 .footer small {
-  color: #ccc;              /*TO SEE OUR EMAILS & OTHER TEXT IN THE FOOTER*/               
+  color: #ccc;
 }
 
 .footer .btn {
   border-radius: 8px;
 }
+
 .footer-logo {
   width: 40px;
   height: 34px;
 }
 
-                                /*coloring for nav bar*/
-.custom-navbar {
-  background-color: #2b2b2b;  
-  border-bottom: 3px solid #1a1a1a;  
+/* === RESPONSIVE FIXES === */
+
+/* Tablet and mobile: navbar and layout */
+@media (max-width: 991px) {
+  .navbar-brand {
+    font-size: 1.2rem;
+  }
+
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .navbar-nav .nav-link {
+    padding: 10px;
+  }
+
+  .custom-navbar .container {
+    flex-wrap: wrap;
+  }
+
+  main .row {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  main img {
+    max-width: 80%;
+    margin: 0 auto 15px;
+  }
+
+  iframe {
+    width: 100%;
+    height: 250px;
+  }
+
+  footer .col-md-4 {
+    text-align: center !important;
+    margin-bottom: 1rem;
+  }
+
+  footer small {
+    display: block;
+  }
 }
 
+/* Smooth collapsing animation */
+.collapse:not(.show) {
+  display: block;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}
 
-.carousel-container {
-  margin-bottom: 20px !important;
-  margin-bottom: 20px;
+.collapse.show {
+  max-height: 400px;
+  transition: max-height 0.4s ease-in;
 }
